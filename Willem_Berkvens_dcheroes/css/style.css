@@ -1,0 +1,207 @@
+body
+{
+    margin: 0px;
+    font-family: arial;
+    clear: both;
+    overflow: hidden;
+}
+
+#header
+{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+#Text
+{
+    display: inline;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+
+#Logo
+{
+    width: 100px;
+    height: 80px;
+    float: left;
+}
+
+a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover
+{
+    background-color: lightgrey;
+}
+
+a:active
+{
+    color: black;
+}
+
+#main-container
+{
+    width: 1536px;
+    height: calc(100vh - 100px);
+}
+
+#main-left
+{
+    color: white;
+    background-color: #000000;
+    float: left;
+    width: 300px;
+    height: 100%;
+    padding-top: 30px;
+    border-right: solid 1px #ffffff;
+    border-top-style: solid;
+}
+
+.TeamImage
+{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+.TeamName
+{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+li
+{
+    list-style:  none;
+}
+
+#main-center
+{
+    float: left;
+    background-color: darkgrey;
+    width: 500px;
+    height: 100%;
+    padding-top: 10px;
+    border-right: solid 3px #ffffff;
+    border-top: solid 3px #ffffff;
+    overflow-y: scroll;
+}
+
+.hero-column:nth-child(even)
+{
+    background-color: rgb(104, 104, 104);
+}
+
+.hero-column
+{
+    width: 420px;
+    height: 350px;
+    background-color:rgb(71, 69, 69);
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-left: 20px;  
+    margin-bottom: 10px;
+    border: solid 1px black;
+}
+
+.hero-image
+{
+    height: 200px;
+    width: 400px;
+    border: solid 1px black;
+}
+
+.hero-name
+{
+    color: white;
+    text-align: left;
+}
+
+.hero-discription
+{
+    width: 400px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+}
+
+.more-info
+{
+    background-color: grey;
+    padding: 5px;
+}
+
+#main-right
+{
+    float: right;
+    background-color: darkgrey;
+    color: #ffffff;
+    width: 732px;
+    height: 100%;
+    padding-top: 30px;
+    border-top: solid 3px #ffffff;
+    overflow-x: hidden;
+    overflow: auto;
+}
+
+.right-column
+{
+    background-color: rgb(71, 69, 69);
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border: solid 1px black;
+}
+.right-hero-image
+{
+    height: 300px;
+    width: 400px;
+    margin-left: 125px;
+    border: solid 1px black;
+}
+
+.right-hero-name
+{
+    text-align: center;
+}
+
+.right-hero-description
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.info
+{
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+}
+
+.right-hero-power
+{
+    margin-left: 50px;
+}
+
+.Form
+{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.commentSection
+{
+    background-color: rgb(104, 104, 104);
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
